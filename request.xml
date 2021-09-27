@@ -1,0 +1,14 @@
+﻿<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:edix="http://edixcfdisecure.ekomercio.com/">
+   <soapenv:Body>
+      <edix:procesarTextoPlano>
+         <!--Optional:-->
+         <edix:usuario>{0}</edix:usuario>
+         <!--Optional:-->
+         <edix:password>{1}</edix:password>
+         <!--Optional:-->
+         <edix:id>{2}</edix:id>
+         <!--Optional:-->
+         <edix:textoPlano>{3}</edix:textoPlano>
+      </edix:procesarTextoPlano>
+   </soapenv:Body>
+</soapenv:Envelope>
